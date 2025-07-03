@@ -66,7 +66,7 @@ export default function DenizlikSection() {
           </h5>
         </GridItem>
       </GridContainer>
-      <div>
+      <div style={{ marginTop: "32px" }}>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea2
