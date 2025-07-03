@@ -6,8 +6,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
-import InfoArea from "/components/InfoArea/InfoArea.js";
-// No Card components needed anymore, only using InfoArea
+import InfoArea2 from "/components/InfoArea/InfoArea2.js";
 
 import { IconRectangle } from "@tabler/icons-react";
 
@@ -56,51 +55,51 @@ const useStyles = makeStyles((theme) => ({
 export default function EvyeAnkastreSection() {
   const classes = useStyles();
   return (
-    <div className={classes.section}>
+    <div className={classes.section} style={{ paddingBottom: "0px" }}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Evye & Ankastre Hizmetlerimiz</h2>
           <h5 className={classes.description}>
-            Genç Mermer olarak, mutfaklarınızı fonksiyonel ve estetik hale getiren 
-            evye ve ankastre kesim hizmetleri sunuyoruz. Özel ölçüm ve tasarım ile 
-            mutfağınıza mükemmel uyum sağlayan çözümler üretiyoruz.
+            Genç Mermer olarak, mutfaklarınızı fonksiyonel ve estetik hale
+            getiren evye ve ankastre kesim hizmetleri sunuyoruz. Özel ölçüm ve
+            tasarım ile mutfağınıza mükemmel uyum sağlayan çözümler üretiyoruz.
           </h5>
         </GridItem>
       </GridContainer>
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
+            <InfoArea2
               title="Evye Montajı"
               description="Evye montaj hizmetlerimiz, profesyonel ekibimiz tarafından titizlikle gerçekleştirilir. Tezgahınıza uygun evye seçimi ve montajı ile mutfağınızda kullanım kolaylığı sağlıyoruz."
-              icon={<IconRectangle />}
+              image="/img/evyeMontaji.jpg"
               iconColor="primary"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
+            <InfoArea2
               title="Ankastre Kesim"
               description="Ankastre cihazlarınız için hassas kesim hizmetleri sunuyoruz. Ocak, fırın ve davlumbaz gibi ankastre ürünler için tezgahınızda milimetrik ölçülerle kesim yaparak, mükemmel uyum sağlıyoruz."
-              icon={<IconRectangle />}
+              image="/img/ankastreKesim.webp"
               iconColor="primary"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
+            <InfoArea2
               title="Özel Çözümler"
               description="Mutfağınızın ihtiyaçlarına ve kullanım alışkanlıklarınıza göre özel çözümler üretiyoruz. Farklı evye modelleri ve ankastre cihazlarınıza uygun kesimlerle, mutfağınızı daha fonksiyonel hale getiriyoruz."
-              icon={<IconRectangle />}
+              image="/img/ozelCozumler.webp"
               iconColor="primary"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={12}>
-            <InfoArea
+            <InfoArea2
               title="Entegre Çözümler"
               description="Genç Mermer olarak, mutfak tezgahı ve evye-ankastre hizmetlerini bir arada sunarak, bütünsel çözümler üretiyoruz. Tezgah seçiminden evye montajına ve ankastre kesimlerine kadar tüm süreçleri tek elden yöneterek, zaman ve maliyet tasarrufu sağlıyoruz. Profesyonel ekibimiz, projenizin her aşamasında yanınızda olarak, sorunsuz bir uygulama garantisi veriyor."
-              icon={<IconRectangle />}
+              image="/img/entegreCozumler.jpg"
               iconColor="primary"
               vertical
             />

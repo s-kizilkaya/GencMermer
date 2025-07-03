@@ -6,8 +6,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
-import InfoArea from "/components/InfoArea/InfoArea.js";
-// No Card components needed anymore, only using InfoArea
+import InfoArea2 from "/components/InfoArea/InfoArea2.js";
 
 import { IconRectangleVertical } from "@tabler/icons-react";
 
@@ -56,51 +55,51 @@ const useStyles = makeStyles((theme) => ({
 export default function KabirSection() {
   const classes = useStyles();
   return (
-    <div className={classes.section}>
+    <div className={classes.section} style={{ paddingBottom: "0px" }}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Kabir Hizmetlerimiz</h2>
           <h5 className={classes.description}>
-            Genç Mermer olarak, sevdiklerinizin anısına yakışır, saygı ve estetik anlayışla 
-            hazırlanan kabir uygulamaları sunuyoruz. Kaliteli malzemeler ve usta işçiliğimizle, 
-            anılarınızı ölümsüzleştiriyoruz.
+            Genç Mermer olarak, sevdiklerinizin anısına yakışır, saygı ve
+            estetik anlayışla hazırlanan kabir uygulamaları sunuyoruz. Kaliteli
+            malzemeler ve usta işçiliğimizle, anılarınızı ölümsüzleştiriyoruz.
           </h5>
         </GridItem>
       </GridContainer>
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
+            <InfoArea2
               title="Mermer Kabirler"
               description="Mermer kabirlerimiz, zarafeti ve dayanıklılığı bir arada sunar. Doğal taşın asaletini yansıtan tasarımlarımız, sevdiklerinizin anısına yakışır şekilde özenle hazırlanır."
-              icon={<IconRectangleVertical />}
+              image="/img/mermerMezar.jpg"
               iconColor="primary"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
+            <InfoArea2
               title="Granit Kabirler"
               description="Granit kabirlerimiz, uzun ömürlü ve dayanıklı yapısıyla öne çıkar. Farklı renk ve desen seçenekleriyle, sevdiklerinizin anısını yaşatacak özel tasarımlar sunuyoruz."
-              icon={<IconRectangleVertical />}
+              image="/img/granitMezar.jpg"
               iconColor="primary"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
+            <InfoArea2
               title="Özel Tasarım Kabirler"
               description="Özel tasarım kabirlerimiz, kişisel tercihlere ve isteklere göre şekillendirilir. Sevdiklerinizin anısına özel, benzersiz ve anlamlı tasarımlar oluşturuyoruz."
-              icon={<IconRectangleVertical />}
+              image="/img/ozelTasarimMezar.jpg"
               iconColor="primary"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={12}>
-            <InfoArea
+            <InfoArea2
               title="Kabir Bakım ve Onarım Hizmetleri"
               description="Genç Mermer olarak, mevcut kabirlerin bakım ve onarım hizmetlerini de sunuyoruz. Zamanla oluşan yıpranmaları gidererek, kabirlerin ilk günkü görünümüne kavuşmasını sağlıyoruz. Profesyonel ekibimiz, saygı ve özenle çalışarak, sevdiklerinizin anısına yakışır bir hizmet sunuyor."
-              icon={<IconRectangleVertical />}
+              image="/img/bakimVeOnarimMezar.jpg"
               iconColor="primary"
               vertical
             />

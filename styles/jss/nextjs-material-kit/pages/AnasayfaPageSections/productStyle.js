@@ -14,6 +14,7 @@ const productStyle = {
   },
   description: {
     color: "#3C4858",
+    marginBottom: "24px",
   },
 };
 

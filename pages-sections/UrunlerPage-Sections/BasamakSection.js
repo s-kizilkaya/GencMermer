@@ -6,8 +6,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
-import InfoArea from "/components/InfoArea/InfoArea.js";
-// No Card components needed anymore, only using InfoArea
+import InfoArea2 from "/components/InfoArea/InfoArea2.js";
 
 import { IconStairs } from "@tabler/icons-react";
 
@@ -56,50 +55,51 @@ const useStyles = makeStyles((theme) => ({
 export default function BasamakSection() {
   const classes = useStyles();
   return (
-    <div className={classes.section}>
+    <div className={classes.section} style={{ paddingBottom: "0px" }}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Basamak Hizmetlerimiz</h2>
           <h5 className={classes.description}>
-            Genç Mermer olarak, merdiven basamaklarınız için estetik ve dayanıklı çözümler sunuyoruz. 
-            Doğal taşın sağlamlığı ve şıklığı ile merdiven basamaklarınız hem göz alıcı hem de güvenli olacak.
+            Genç Mermer olarak, merdiven basamaklarınız için estetik ve
+            dayanıklı çözümler sunuyoruz. Doğal taşın sağlamlığı ve şıklığı ile
+            merdiven basamaklarınız hem göz alıcı hem de güvenli olacak.
           </h5>
         </GridItem>
       </GridContainer>
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
+            <InfoArea2
               title="Mermer Basamaklar"
               description="Mermer basamaklarımız, klasik ve zarif bir görünüm sunar. Doğal taşın asaleti ile mekanlarınıza değer katar. Farklı renk ve desen seçenekleriyle her tarza uyum sağlar."
-              icon={<IconStairs />}
+              image="/img/mermerBasamak.jpg"
               iconColor="primary"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
+            <InfoArea2
               title="Granit Basamaklar"
               description="Granit basamaklarımız, yüksek dayanıklılığı ve şık görünümü bir arada sunar. Yoğun kullanım alanları için ideal olan granit basamaklar, uzun yıllar boyunca ilk günkü görünümünü korur."
-              icon={<IconStairs />}
+              image="/img/granitBasamak.jpg"
               iconColor="primary"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
+            <InfoArea2
               title="Özel Tasarım Basamaklar"
               description="Özel tasarım basamaklarımız, mekanınızın tarzına ve ihtiyaçlarınıza göre şekillendirilir. Farklı kenar profilleri ve yüzey işlemeleri ile basamaklarınıza özgün bir karakter kazandırıyoruz."
-              icon={<IconStairs />}
+              image="/img/OzelTasarimBasamak.webp"
               iconColor="primary"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={12}>
-            <InfoArea
+            <InfoArea2
               title="Güvenlik ve Estetik Bir Arada"
               description="Genç Mermer olarak, basamak uygulamalarımızda güvenliği ve estetiği bir arada sunuyoruz. Kaymaz yüzey işlemeleri ve özel kenar profilleri ile güvenli bir kullanım sağlarken, doğal taşın eşsiz güzelliği ile mekanlarınıza değer katıyoruz. Profesyonel ekibimiz, ölçüm aşamasından montaja kadar tüm süreçte yanınızda olarak, sorunsuz bir uygulama garantisi veriyor."
-              icon={<IconStairs />}
+              image="/img/bakimVeOnarimBasamak.jpg"
               iconColor="primary"
               vertical
             />
