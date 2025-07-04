@@ -30,6 +30,44 @@ export default function AnasayfaPage(props) {
   const { ...rest } = props;
   return (
     <div>
+      <Head>
+        <title>Genç Mermer | Anasayfa</title>
+        <meta
+          name="description"
+          content="Genç Mermer Eskişehir'de kaliteli mermer çözümleri sunar. Zarif işçilik ve doğanın güzelliği ile estetik yaşam alanları."
+        />
+        <meta
+          name="keywords"
+          content="Genç Mermer, Genç Mermer Eskişehir, Eskişehir Genç Mermer, Eskişehir Mermer, Mermer Eskişehir, Mermer, Mermer Ustası, Mermerci, Mermer Firması, Doğal Taş, Granit, İç Mekan, Dış Mekan"
+        />
+        <meta name="robots" content="index, follow" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="Genç Mermer | Anasayfa" />
+        <meta
+          property="og:description"
+          content="Doğal taşlarla zarif yaşam alanları: Eskişehir Genç Mermer"
+        />
+        <meta
+          property="og:image"
+          content="https://www.gencmermer.com/img/MermerSiyah-bg.jpg"
+        />
+        <meta property="og:url" content="https://www.gencmermer.com" />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Genç Mermer" />
+        <meta
+          name="twitter:description"
+          content="Eskişehir'de mermer çözümleri"
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.gencmermer.com/img/MermerSiyah-bg.jpg"
+        />
+      </Head>
+
       <Header
         color="transparent"
         routes={dashboardRoutes}
