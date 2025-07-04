@@ -38,6 +38,7 @@ export default function HakkimizdaDetaySection() {
                 beklentilerini aşan çözümler sunarak, yaşam alanlarına değer katmak ve
                 sektörde güvenilir bir referans noktası haline gelmek."
             icon={<IconEye />}
+            iconColor="primary"
             vertical
           />
         </GridItem>
@@ -50,6 +51,7 @@ export default function HakkimizdaDetaySection() {
                 üst seviyede tutmak. Çevreye saygılı üretim süreçleri ve sosyal sorumluluk
                 bilinciyle, topluma değer katmak."
             icon={<IconTargetArrow />}
+            iconColor="primary"
             vertical
           />
         </GridItem>

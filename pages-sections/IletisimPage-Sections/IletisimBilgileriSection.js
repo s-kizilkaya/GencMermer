@@ -34,16 +34,18 @@ export default function IletisimBilgileriSection() {
           <InfoArea
             title="Adres"
             description="Uluönder Mahallesi, Baksan Sanayi Sitesi 81 / 4, 26200 Tepebaşı / Eskişehir, Türkiye"
-            vertical
             icon={<IconMapPin />}
+            iconColor="primary"
+            vertical
           />
         </GridItem>
         <GridItem xs={12} sm={12} md={6}>
           <InfoArea
             title="Telefon"
             description="+90 (532) 592 81 00"
-            vertical
             icon={<IconPhone />}
+            iconColor="primary"
+            vertical
           />
         </GridItem>
       </GridContainer>
