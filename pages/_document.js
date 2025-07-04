@@ -10,8 +10,18 @@ class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#000000" />
           <link rel="shortcut icon" href="/img/favicon.png" />
-          <link rel="icon" href="/img/favicon.png" type="image/png" />
-
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/img/favicon.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/img/favicon.png"
+          />
           {/* Fonts and icons */}
           <link
             rel="stylesheet"

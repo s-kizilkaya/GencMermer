@@ -42,7 +42,6 @@ export default function AnasayfaPage(props) {
           content="Genç Mermer, Genç Mermer Eskişehir, Eskişehir Genç Mermer, Eskişehir Mermer, Mermer Eskişehir, Mermer, Mermer Ustası, Mermerci, Mermer Firması, Doğal Taş, Granit, İç Mekan, Dış Mekan"
         />
         <meta name="robots" content="index, follow" />
-
         {/* Open Graph */}
         <meta property="og:title" content="Genç Mermer | Anasayfa" />
         <meta
