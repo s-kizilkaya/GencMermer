@@ -44,12 +44,13 @@ export default function IletisimPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title} style={{ color: "#800020" }}>
+              <h1 className={classes.title} style={{ color: "#8b0020" }}>
                 İletişim
               </h1>
               <h4>
                 Genç Mermer ile iletişime geçin. Sorularınız, projeleriniz veya
-                talepleriniz için bize ulaşın. Size en kısa sürede dönüş yapacağız.
+                talepleriniz için bize ulaşın. Size en kısa sürede dönüş
+                yapacağız.
               </h4>
               <br />
             </GridItem>

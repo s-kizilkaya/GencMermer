@@ -74,7 +74,7 @@ const defaultFont = {
   lineHeight: "1.5em",
 };
 
-const primaryColor = "#800020";
+const primaryColor = "#8b0020";
 const warningColor = "#ff9800";
 const dangerColor = "#f44336";
 const successColor = "#4caf50";
@@ -188,7 +188,7 @@ const defaultBoxShadow = {
 };
 
 const title = {
-  color: "#800020",
+  color: "#8b0020",
   margin: "1.75rem 0 0.875rem",
   textDecoration: "none",
   fontWeight: "700",

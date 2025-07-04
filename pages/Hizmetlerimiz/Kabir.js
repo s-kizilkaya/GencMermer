@@ -44,20 +44,16 @@ export default function KabirPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title} style={{ color: "#800020" }}>
+              <h1 className={classes.title} style={{ color: "#8b0020" }}>
                 Kabir
               </h1>
               <h4>
-                Mermer kabir uygulamalarımız, saygı ve estetik anlayışla hazırlanır. 
-                Anılarınıza değer katacak özel tasarımlar sunuyoruz.
+                Mermer kabir uygulamalarımız, saygı ve estetik anlayışla
+                hazırlanır. Anılarınıza değer katacak özel tasarımlar sunuyoruz.
               </h4>
               <br />
               <Link href="/Iletisim">
-                <Button
-                  color="primary"
-                  size="lg"
-                  rel="noopener noreferrer"
-                >
+                <Button color="primary" size="lg" rel="noopener noreferrer">
                   BİZİMLE İLETİŞİME GEÇİN
                 </Button>
               </Link>

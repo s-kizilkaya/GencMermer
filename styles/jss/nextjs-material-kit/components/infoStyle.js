@@ -39,7 +39,7 @@ const infoStyle = {
     color: roseColor,
   },
   gray: {
-    color: "#800020",
+    color: "#8b0020",
   },
   icon: {
     width: "36px",

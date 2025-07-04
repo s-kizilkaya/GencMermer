@@ -58,7 +58,7 @@ export default function ReferanslarimizSection() {
           >
             <div
               className={classes.reference}
-              style={{ padding: 20, paddingY: 10, backgroundColor: "#800020" }}
+              style={{ padding: 20, paddingY: 10, backgroundColor: "#8b0020" }}
             >
               <img
                 src="/img/cobanlar.png"

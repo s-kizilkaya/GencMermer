@@ -44,20 +44,16 @@ export default function BasamakPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title} style={{ color: "#800020" }}>
+              <h1 className={classes.title} style={{ color: "#8b0020" }}>
                 Basamak
               </h1>
               <h4>
-                Mermer basamaklarımız, hem güvenlik hem de estetik açıdan mükemmel bir seçimdir. 
-                Uzun ömürlü ve şık çözümler sunuyoruz.
+                Mermer basamaklarımız, hem güvenlik hem de estetik açıdan
+                mükemmel bir seçimdir. Uzun ömürlü ve şık çözümler sunuyoruz.
               </h4>
               <br />
               <Link href="/Iletisim">
-                <Button
-                  color="primary"
-                  size="lg"
-                  rel="noopener noreferrer"
-                >
+                <Button color="primary" size="lg" rel="noopener noreferrer">
                   BİZİMLE İLETİŞİME GEÇİN
                 </Button>
               </Link>

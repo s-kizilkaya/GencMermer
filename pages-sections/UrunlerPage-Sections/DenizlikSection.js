@@ -15,7 +15,7 @@ import styles from "/styles/jss/nextjs-material-kit/pages/AnasayfaPageSections/p
 const useStyles = makeStyles((theme) => ({
   ...styles,
   cardTitle: {
-    color: "#800020",
+    color: "#8b0020",
     marginTop: "0",
     minHeight: "auto",
     fontWeight: "500",

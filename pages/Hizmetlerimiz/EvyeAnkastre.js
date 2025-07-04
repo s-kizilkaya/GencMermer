@@ -44,20 +44,18 @@ export default function EvyeAnkastrePage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title} style={{ color: "#800020" }}>
+              <h1 className={classes.title} style={{ color: "#8b0020" }}>
                 Evye & Ankastre
               </h1>
               <h4>
-                Evye ve ankastre kesim hizmetlerimiz, ihtiyacınıza özel olarak tasarlanmış çözümler sunar. 
-                Mermerin estetik görünümünü ve dayanıklılığını koruyarak, mutfaklarınıza fonksiyonellik ve şıklık katıyoruz.
+                Evye ve ankastre kesim hizmetlerimiz, ihtiyacınıza özel olarak
+                tasarlanmış çözümler sunar. Mermerin estetik görünümünü ve
+                dayanıklılığını koruyarak, mutfaklarınıza fonksiyonellik ve
+                şıklık katıyoruz.
               </h4>
               <br />
               <Link href="/Iletisim">
-                <Button
-                  color="primary"
-                  size="lg"
-                  rel="noopener noreferrer"
-                >
+                <Button color="primary" size="lg" rel="noopener noreferrer">
                   BİZİMLE İLETİŞİME GEÇİN
                 </Button>
               </Link>

@@ -44,20 +44,17 @@ export default function DenizlikPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title} style={{ color: "#800020" }}>
+              <h1 className={classes.title} style={{ color: "#8b0020" }}>
                 Denizlik
               </h1>
               <h4>
-                Doğal taş denizlik çözümlerimizle mekanlarınıza zarafet katın. 
-                Dayanıklı ve şık tasarımlar, her ihtiyaca uygun şekilde üretilmektedir.
+                Doğal taş denizlik çözümlerimizle mekanlarınıza zarafet katın.
+                Dayanıklı ve şık tasarımlar, her ihtiyaca uygun şekilde
+                üretilmektedir.
               </h4>
               <br />
               <Link href="/Iletisim">
-                <Button
-                  color="primary"
-                  size="lg"
-                  rel="noopener noreferrer"
-                >
+                <Button color="primary" size="lg" rel="noopener noreferrer">
                   BİZİMLE İLETİŞİME GEÇİN
                 </Button>
               </Link>

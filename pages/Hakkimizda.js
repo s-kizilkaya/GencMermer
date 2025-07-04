@@ -43,14 +43,14 @@ export default function HakkimizdaPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title} style={{ color: "#800020" }}>
+              <h1 className={classes.title} style={{ color: "#8b0020" }}>
                 Hakkımızda
               </h1>
               <h4>
                 Genç Mermer olarak, mermer sektöründe kaliteli çözümler sunma
-                konusundaki kararlılığımızla tanınmaktayız. Her projede, doğal taşın
-                estetiği ve dayanıklılığını ön planda tutarak, müşteri memnuniyetini
-                sağlamak için özveriyle çalışıyoruz.
+                konusundaki kararlılığımızla tanınmaktayız. Her projede, doğal
+                taşın estetiği ve dayanıklılığını ön planda tutarak, müşteri
+                memnuniyetini sağlamak için özveriyle çalışıyoruz.
               </h4>
               <br />
             </GridItem>

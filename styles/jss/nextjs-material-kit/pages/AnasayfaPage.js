@@ -12,7 +12,7 @@ const AnasayfaPageStyle = {
     position: "relative",
     marginTop: "30px",
     minHeight: "32px",
-    color: "#800020",
+    color: "#8b0020",
     textDecoration: "none",
   },
   subtitle: {

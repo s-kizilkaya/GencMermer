@@ -39,7 +39,7 @@ const infoStyle2 = {
     color: roseColor,
   },
   gray: {
-    color: "#800020",
+    color: "#8b0020",
   },
   descriptionWrapper: {
     color: grayColor,
