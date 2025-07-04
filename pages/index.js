@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import Router from "next/router";
+export async function getServerSideProps() {
+  return {
+    redirect: {
+      destination: "/Anasayfa",
+      permanent: false,
+    },
+  };
+}
 
-export default class Index extends Component {
-  componentDidMount = ()=> {
-    Router.push("/Anasayfa");
-  }
-
-  render() {
-    return <div />;
-  }
+export default function Index() {
+  return null;
 }
