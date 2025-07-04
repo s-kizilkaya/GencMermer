@@ -33,6 +33,8 @@ export default function AnasayfaPage(props) {
     <div>
       <Head>
         <title>Genç Mermer | Anasayfa</title>
+        <link rel="icon" href="/img/favicon.png" />
+
         <meta
           name="description"
           content="Genç Mermer Eskişehir'de kaliteli mermer çözümleri sunar. Zarif işçilik ve doğanın güzelliği ile estetik yaşam alanları."
