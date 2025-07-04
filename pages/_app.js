@@ -14,7 +14,6 @@ function MyApp({ Component, pageProps }) {
           name="google-site-verification"
           content="c92VyyvpOUq1sExTa2TxvFrpfneI84x9SMXSz0hrcqw"
         />
-        <link rel="icon" href="/img/favicon.png" type="image/png"></link>
         <title>Genç Mermer</title>
       </Head>
       <Component {...pageProps} />
