@@ -15,7 +15,7 @@ export default function UrunlerimizSection() {
   const classes = useStyles();
   return (
     <div className={classes.section} style={{ paddingBottom: "0px" }}>
-      <GridContainer justify="center">
+      <GridContainer justifyContent="center">
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Hizmetler</h2>
           <h5 className={classes.description}>

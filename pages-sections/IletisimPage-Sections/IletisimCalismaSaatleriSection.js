@@ -13,15 +13,17 @@ const useStyles = makeStyles(styles);
 
 export default function IletisimCalismaSaatleriSection() {
   const classes = useStyles();
-  
+
   return (
     <div className={classes.section}>
-      <GridContainer justify="center">
+      <GridContainer justifyContent="center">
         <GridItem xs={12} sm={12} md={12}>
           <h2 className={classes.title}>Çalışma Saatlerimiz</h2>
           <h5 className={classes.description}>
-            Pazartesi - Cuma: 09:00 - 18:00<br />
-            Cumartesi: 09:00 - 14:00<br />
+            Pazartesi - Cuma: 09:00 - 18:00
+            <br />
+            Cumartesi: 09:00 - 14:00
+            <br />
             Pazar: Kapalı
           </h5>
         </GridItem>

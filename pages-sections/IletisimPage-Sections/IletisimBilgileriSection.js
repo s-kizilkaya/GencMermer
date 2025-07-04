@@ -19,7 +19,7 @@ export default function IletisimBilgileriSection() {
 
   return (
     <div className={classes.section}>
-      <GridContainer justify="center">
+      <GridContainer justifyContent="center">
         <GridItem xs={12} sm={12} md={12}>
           <h2 className={classes.title}>İletişim Bilgilerimiz</h2>
           <h5 className={classes.description}>

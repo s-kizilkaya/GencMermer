@@ -56,7 +56,7 @@ export default function MutfakTezgahiSection() {
   const classes = useStyles();
   return (
     <div className={classes.section} style={{ paddingBottom: "0px" }}>
-      <GridContainer justify="center">
+      <GridContainer justifyContent="center">
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Mutfak Tezgahı Hizmetlerimiz</h2>
           <h5 className={classes.description}>

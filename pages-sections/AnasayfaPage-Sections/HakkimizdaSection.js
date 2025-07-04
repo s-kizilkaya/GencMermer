@@ -8,11 +8,7 @@ import GridItem from "/components/Grid/GridItem.js";
 import InfoArea from "/components/InfoArea/InfoArea.js";
 
 import styles from "/styles/jss/nextjs-material-kit/pages/AnasayfaPageSections/productStyle.js";
-import {
-  IconSparkles,
-  IconShield,
-  IconClockHour8,
-} from "@tabler/icons-react";
+import { IconSparkles, IconShield, IconClockHour8 } from "@tabler/icons-react";
 
 const useStyles = makeStyles(styles);
 
@@ -20,7 +16,7 @@ export default function HakkimizdaSection() {
   const classes = useStyles();
   return (
     <div className={classes.section}>
-      <GridContainer justify="center">
+      <GridContainer justifyContent="center">
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Hakkımızda</h2>
           <h5 className={classes.description}>
