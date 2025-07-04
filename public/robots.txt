@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.orneksite.com
+Host: https://www.gencmermer.com.tr
 
 # Sitemaps
-Sitemap: https://www.orneksite.com/sitemap.xml
+Sitemap: https://www.gencmermer.com.tr/sitemap.xml
