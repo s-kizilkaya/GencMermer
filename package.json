@@ -8,7 +8,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf .next/ && npm install && npm run dev"
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf .next/ && npm install && npm run dev",
+    "postbuild": "next-sitemap"
   },
   "keywords": [
     "next",
@@ -33,6 +34,7 @@
     "classnames": "^2.5.1",
     "moment": "^2.30.1",
     "next": "12.2.5",
+    "next-sitemap": "^4.2.3",
     "nouislider": "14.7.0",
     "prop-types": "15.8.1",
     "react": ">=16.0.0",
