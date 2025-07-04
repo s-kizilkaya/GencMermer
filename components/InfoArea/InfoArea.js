@@ -42,13 +42,20 @@ export default function InfoArea(props) {
 }
 
 InfoArea.defaultProps = {
-  iconColor: "#444444",
+  iconColor: "primary",
 };
 
 InfoArea.propTypes = {
   icon: PropTypes.element.isRequired, // icon prop'unu element olarak değiştirin
   title: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
   description: PropTypes.string.isRequired,
-  iconColor: PropTypes.oneOf(["#444444"]),
+  iconColor: PropTypes.oneOf([
+    "gray",
+    "primary",
+    "info",
+    "success",
+    "warning",
+    "danger",
+  ]),
   vertical: PropTypes.bool,
 };

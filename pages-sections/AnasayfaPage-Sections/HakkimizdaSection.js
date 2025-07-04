@@ -34,6 +34,7 @@ export default function HakkimizdaSection() {
               title="Özel Tasarım & Uygulama"
               description="İhtiyacınıza uygun özel ölçü ve tasarımlar sunarak, projelerinizi hayal ettiğiniz gibi gerçeğe dönüştürüyoruz. Her detayda mükemmelliği hedefliyoruz."
               icon={<IconSparkles />}
+              iconColor="primary"
               vertical
             />
           </GridItem>
@@ -42,6 +43,7 @@ export default function HakkimizdaSection() {
               title="Hızlı & Güvenilir İşçilik"
               description="İşlerinizi zamanında ve titizlikle tamamlayarak, en kısa sürede sonuç almanızı sağlıyoruz. Müşteri memnuniyetini önceliğimiz haline getiriyoruz."
               icon={<IconClockHour8 />}
+              iconColor="primary"
               vertical
             />
           </GridItem>
@@ -50,6 +52,7 @@ export default function HakkimizdaSection() {
               title="Kalite & Sorunsuz Hizmet"
               description="Herhangi bir sorunla karşılaştığınızda, hızlı ve etkili çözümler sunmak için buradayız. Sizin memnuniyetiniz, bizim önceliğimizdir."
               icon={<IconShield />}
+              iconColor="primary"
               vertical
             />
           </GridItem>
