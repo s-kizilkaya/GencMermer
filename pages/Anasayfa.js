@@ -39,7 +39,7 @@ export default function AnasayfaPage(props) {
         />
         <meta
           name="keywords"
-          content="Genç Mermer, Genç Mermer Eskişehir, Eskişehir Genç Mermer, Eskişehir Mermer, Mermer Eskişehir, Mermer, Mermer Ustası, Mermerci, Mermer Firması, Doğal Taş, Granit, İç Mekan, Dış Mekan"
+          content="Genç Mermer, Genç Mermer Eskişehir, Eskişehir Genç Mermer, Mermer Eskişehir, Eskişehir Mermer, Mermer, Mermer Ustası, Mermerci, Mermer Firması, Doğal Taş, Granit, İç Mekan, Dış Mekan"
         />
         <meta name="robots" content="index, follow" />
 
@@ -55,20 +55,7 @@ export default function AnasayfaPage(props) {
         />
         <meta property="og:url" content="https://www.gencmermer.com" />
         <meta property="og:type" content="website" />
-
-        {/* Twitter Card */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Genç Mermer" />
-        <meta
-          name="twitter:description"
-          content="Eskişehir'de mermer çözümleri"
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.gencmermer.com/img/MermerSiyah-bg.jpg"
-        />
       </Head>
-
       <Header
         color="transparent"
         routes={dashboardRoutes}
