@@ -9,7 +9,16 @@ class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#000000" />
-          <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+          <link
+            rel="icon"
+            href="https://gencmermer.com.tr/favicon.ico"
+            type="image/x-icon"
+          />
+          <link
+            rel="shortcut icon"
+            href="https://gencmermer.com.tr/favicon.ico"
+            type="image/x-icon"
+          />
 
           {/* Fonts and icons */}
           <link
