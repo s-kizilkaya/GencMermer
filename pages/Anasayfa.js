@@ -53,7 +53,10 @@ export default function AnasayfaPage(props) {
           property="og:image"
           content="https://www.gencmermer.com/img/MermerSiyah-bg.jpg"
         />
-        <meta property="og:url" content="https://www.gencmermer.com/anasayfa" />
+        <meta
+          property="og:url"
+          content="https://www.gencmermer.com.tr/anasayfa"
+        />
         <meta property="og:type" content="website" />
       </Head>
       <Header

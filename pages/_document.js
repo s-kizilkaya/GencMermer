@@ -30,7 +30,7 @@ class MyDocument extends Document {
             property="og:image"
             content="https://www.gencmermer.com/img/MermerSiyah-bg.jpg"
           />
-          <meta property="og:url" content="https://www.gencmermer.com" />
+          <meta property="og:url" content="https://www.gencmermer.com.tr" />
           <meta property="og:type" content="website" />
           {/* Fonts and icons */}
           <link
