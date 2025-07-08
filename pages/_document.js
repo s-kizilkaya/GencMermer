@@ -20,6 +20,16 @@ class MyDocument extends Document {
             type="image/x-icon"
           />
 
+          <link
+            rel="icon"
+            href="https://gencmermer.com.tr/img/favicon.png"
+            type="image/png"
+          />
+          <link
+            rel="shortcut icon"
+            href="https://gencmermer.com.tr/img/favicon.png"
+            type="image/png"
+          />
           {/* Fonts and icons */}
           <link
             rel="stylesheet"
