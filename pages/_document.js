@@ -5,11 +5,33 @@ import { ServerStyleSheets } from "@material-ui/styles";
 class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html lang="tr">
         <Head>
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#000000" />
-          <link rel="shortcut icon" href="/img/favicon.png" />
+          <title>Genç Mermer</title>
+          <link rel="icon" href="/img/favicon.png" type="image/x-icon" />
+          <meta
+            name="description"
+            content="Genç Mermer Eskişehir'de kaliteli mermer çözümleri sunar. Zarif işçilik ve doğanın güzelliği ile estetik yaşam alanları."
+          />
+          <meta
+            name="keywords"
+            content="Genç Mermer, Genç Mermer Eskişehir, Eskişehir Genç Mermer, Mermer Eskişehir, Eskişehir Mermer, Mermer, Mermer Ustası, Mermerci, Mermer Firması, Doğal Taş, Granit, İç Mekan, Dış Mekan"
+          />
+          <meta name="robots" content="index, follow" />
+          {/* Open Graph */}
+          <meta property="og:title" content="Genç Mermer" />
+          <meta
+            property="og:description"
+            content="Doğal taşlarla zarif yaşam alanları: Eskişehir Genç Mermer"
+          />
+          <meta
+            property="og:image"
+            content="https://www.gencmermer.com/img/MermerSiyah-bg.jpg"
+          />
+          <meta property="og:url" content="https://www.gencmermer.com" />
+          <meta property="og:type" content="website" />
           {/* Fonts and icons */}
           <link
             rel="stylesheet"
