@@ -33,7 +33,6 @@ export default function AnasayfaPage(props) {
     <div>
       <Head>
         <title>Genç Mermer | Anasayfa</title>
-        <link rel="icon" href="/img/favicon.png" type="image/x-icon" />
         <meta
           name="description"
           content="Genç Mermer Eskişehir'de kaliteli mermer çözümleri sunar. Zarif işçilik ve doğanın güzelliği ile estetik yaşam alanları."
@@ -43,6 +42,7 @@ export default function AnasayfaPage(props) {
           content="Genç Mermer, Genç Mermer Eskişehir, Eskişehir Genç Mermer, Mermer Eskişehir, Eskişehir Mermer, Mermer, Mermer Ustası, Mermerci, Mermer Firması, Doğal Taş, Granit, İç Mekan, Dış Mekan"
         />
         <meta name="robots" content="index, follow" />
+
         {/* Open Graph */}
         <meta property="og:title" content="Genç Mermer | Anasayfa" />
         <meta
@@ -51,7 +51,7 @@ export default function AnasayfaPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.gencmermer.com/img/MermerSiyah-bg.jpg"
+          content="https://www.gencmermer.com.tr/img/MermerSiyah-bg.jpg"
         />
         <meta
           property="og:url"
