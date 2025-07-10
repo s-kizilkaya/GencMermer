@@ -13,7 +13,7 @@ import HeaderLinks from "/components/Header/HeaderLinks.js";
 import Parallax from "/components/Parallax/Parallax.js";
 import Button from "/components/CustomButtons/Button.js";
 import Link from "next/link";
-
+import Head from "next/head";
 import styles from "/styles/jss/nextjs-material-kit/pages/AnasayfaPage.js";
 
 // Sections for this page
@@ -28,6 +28,34 @@ export default function DenizlikPage(props) {
   const { ...rest } = props;
   return (
     <div>
+      <Head>
+        <title>Genç Mermer | Denizlik</title>
+        <meta
+          name="description"
+          content="Genç Mermer ile estetik ve dayanıklı mermer denizlik çözümleri. İç ve dış cephelerde modern tasarımlarla uzun ömürlü uygulamalar."
+        />
+        <meta
+          name="keywords"
+          content="Genç Mermer Denizlik, Genç Mermer, Denizlik, Denizlik Modelleri, Dış Cephe Denizlik, Eskişehir Mermer Denizlik, İç Mekan Mermer"
+        />
+        <meta name="robots" content="index, follow" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="Genç Mermer | Denizlik" />
+        <meta
+          property="og:description"
+          content="Pencerelerinizi estetik ve dayanıklı mermer denizliklerle tamamlayın. Eskişehir’de kaliteli çözümler Genç Mermer’de."
+        />
+        <meta
+          property="og:image"
+          content="https://www.gencmermer.com.tr/img/mermer-parallax.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://www.gencmermer.com.tr/hizmetlerimiz/denizlik"
+        />
+        <meta property="og:type" content="website" />
+      </Head>
       <Header
         color="transparent"
         routes={dashboardRoutes}
@@ -40,7 +68,7 @@ export default function DenizlikPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter responsive image="/img/MermerSiyah-bg.jpg">
+      <Parallax filter responsive image="/img/mermer-parallax.jpg">
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>

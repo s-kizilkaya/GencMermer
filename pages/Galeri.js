@@ -16,35 +16,34 @@ import Parallax from "/components/Parallax/Parallax.js";
 import styles from "/styles/jss/nextjs-material-kit/pages/AnasayfaPage.js";
 
 // Sections for this page
-import HakkimizdaDetaySection from "/pages-sections/HakkimizdaPage-Sections/HakkimizdaDetaySection.js";
-import HakkimizdaDegerlerSection from "/pages-sections/HakkimizdaPage-Sections/HakkimizdaDegerlerSection.js";
+import GaleriSliderSection from "/pages-sections/GaleriPage-Sections/GaleriSliderSection.js";
 
 const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
 
-export default function HakkimizdaPage(props) {
+export default function GaleriPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
   return (
     <div>
       <Head>
-        <title>Genç Mermer | Hakkımızda</title>
+        <title>Genç Mermer | Galeri</title>
         <meta
           name="description"
-          content="Genç Mermer olarak, yılların verdiği deneyimle doğal taş sektöründe estetik, kalite ve güveni bir araya getiriyoruz. Misyonumuzu ve değerlerimizi keşfedin."
+          content="Genç Mermer'in tamamladığı projelerden ilham alın. Mutfak tezgahı, kabir, denizlik ve daha fazlası için galerimizi inceleyin."
         />
         <meta
           name="keywords"
-          content="Genç Mermer Hakkımızda, Genç Mermer, Hakkımızda, Mermer Firması Eskişehir, Doğal Taş Hakkında, Mermer Ustası, Mermer Şirketi, Mermer Kalitesi, Kurumsal Mermer"
+          content="Genç Mermer Galeri, Genç Mermer, Galeri, Mermer Uygulama Örnekleri, Eskişehir Mermer Galeri, Mutfak Tezgahı Galeri, Kabir Galeri, Denizlik Modelleri, Mermer Projeleri"
         />
         <meta name="robots" content="index, follow" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="Genç Mermer | Hakkımızda" />
+        <meta property="og:title" content="Genç Mermer | Galeri" />
         <meta
           property="og:description"
-          content="Kalite, güven ve estetik anlayışıyla Genç Mermer'in geçmişini ve değerlerini tanıyın."
+          content="Gerçek projelerimizden ilham alın. Eskişehir'de hayata geçen mermer uygulamalarımızı keşfedin."
         />
         <meta
           property="og:image"
@@ -52,7 +51,7 @@ export default function HakkimizdaPage(props) {
         />
         <meta
           property="og:url"
-          content="https://www.gencmermer.com.tr/hakkimizda"
+          content="https://www.gencmermer.com.tr/galeri"
         />
         <meta property="og:type" content="website" />
       </Head>
@@ -73,13 +72,10 @@ export default function HakkimizdaPage(props) {
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title} style={{ color: "#8b0020" }}>
-                Hakkımızda
+                Galeri
               </h1>
               <h4>
-                Genç Mermer olarak, mermer sektöründe kaliteli çözümler sunma
-                konusundaki kararlılığımızla tanınmaktayız. Her projede, doğal
-                taşın estetiği ve dayanıklılığını ön planda tutarak, müşteri
-                memnuniyetini sağlamak için özveriyle çalışıyoruz.
+                Projelerimizden ve ürünlerimizden derlediğimiz görselleri burada bulabilirsiniz. Mermerin estetiğini ve kalitesini yakından inceleyin.
               </h4>
               <br />
             </GridItem>
@@ -88,8 +84,7 @@ export default function HakkimizdaPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <HakkimizdaDetaySection />
-          <HakkimizdaDegerlerSection />
+          <GaleriSliderSection />
         </div>
       </div>
       <Footer />

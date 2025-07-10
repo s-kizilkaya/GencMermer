@@ -8,8 +8,6 @@ import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
 import InfoArea2 from "/components/InfoArea/InfoArea2.js";
 
-import { IconRectangleVertical } from "@tabler/icons-react";
-
 import styles from "/styles/jss/nextjs-material-kit/pages/AnasayfaPageSections/productStyle.js";
 
 const useStyles = makeStyles((theme) => ({
@@ -72,7 +70,7 @@ export default function KabirSection() {
             <InfoArea2
               title="Mermer Kabirler"
               description="Mermer kabirlerimiz, zarafeti ve dayanıklılığı bir arada sunar. Doğal taşın asaletini yansıtan tasarımlarımız, sevdiklerinizin anısına yakışır şekilde özenle hazırlanır."
-              image="/img/mermerMezar.jpg"
+              image="/img/hizmetlerimiz/kabir/mermer-kabir.jpg"
               iconColor="primary"
               vertical
             />
@@ -81,7 +79,7 @@ export default function KabirSection() {
             <InfoArea2
               title="Granit Kabirler"
               description="Granit kabirlerimiz, uzun ömürlü ve dayanıklı yapısıyla öne çıkar. Farklı renk ve desen seçenekleriyle, sevdiklerinizin anısını yaşatacak özel tasarımlar sunuyoruz."
-              image="/img/granitMezar.jpg"
+              image="/img/hizmetlerimiz/kabir/granit-kabir.jpg"
               iconColor="primary"
               vertical
             />
@@ -90,7 +88,7 @@ export default function KabirSection() {
             <InfoArea2
               title="Özel Tasarım Kabirler"
               description="Özel tasarım kabirlerimiz, kişisel tercihlere ve isteklere göre şekillendirilir. Sevdiklerinizin anısına özel, benzersiz ve anlamlı tasarımlar oluşturuyoruz."
-              image="/img/ozelTasarimMezar.jpg"
+              image="/img/hizmetlerimiz/kabir/ozel-tasarim-kabir.jpg"
               iconColor="primary"
               vertical
             />
@@ -99,7 +97,7 @@ export default function KabirSection() {
             <InfoArea2
               title="Kabir Bakım ve Onarım Hizmetleri"
               description="Genç Mermer olarak, mevcut kabirlerin bakım ve onarım hizmetlerini de sunuyoruz. Zamanla oluşan yıpranmaları gidererek, kabirlerin ilk günkü görünümüne kavuşmasını sağlıyoruz. Profesyonel ekibimiz, saygı ve özenle çalışarak, sevdiklerinizin anısına yakışır bir hizmet sunuyor."
-              image="/img/bakimVeOnarimMezar.jpg"
+              image="/img/hizmetlerimiz/kabir/kabir-bakim-ve-onarim-hizmetleri.jpg"
               iconColor="primary"
               vertical
             />

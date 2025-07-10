@@ -8,8 +8,6 @@ import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
 import InfoArea2 from "/components/InfoArea/InfoArea2.js";
 
-import { IconRectangle } from "@tabler/icons-react";
-
 import styles from "/styles/jss/nextjs-material-kit/pages/AnasayfaPageSections/productStyle.js";
 
 const useStyles = makeStyles((theme) => ({
@@ -72,7 +70,7 @@ export default function EvyeAnkastreSection() {
             <InfoArea2
               title="Evye Montajı"
               description="Evye montaj hizmetlerimiz, profesyonel ekibimiz tarafından titizlikle gerçekleştirilir. Tezgahınıza uygun evye seçimi ve montajı ile mutfağınızda kullanım kolaylığı sağlıyoruz."
-              image="/img/evyeMontaji.jpg"
+              image="/img/hizmetlerimiz/evye-ankastre/evye-montaji.jpg"
               iconColor="primary"
               vertical
             />
@@ -81,7 +79,7 @@ export default function EvyeAnkastreSection() {
             <InfoArea2
               title="Ankastre Kesim"
               description="Ankastre cihazlarınız için hassas kesim hizmetleri sunuyoruz. Ocak, fırın ve davlumbaz gibi ankastre ürünler için tezgahınızda milimetrik ölçülerle kesim yaparak, mükemmel uyum sağlıyoruz."
-              image="/img/ankastreKesim.webp"
+              image="/img/hizmetlerimiz/evye-ankastre/ankastre-kesim.webp"
               iconColor="primary"
               vertical
             />
@@ -90,7 +88,7 @@ export default function EvyeAnkastreSection() {
             <InfoArea2
               title="Özel Çözümler"
               description="Mutfağınızın ihtiyaçlarına ve kullanım alışkanlıklarınıza göre özel çözümler üretiyoruz. Farklı evye modelleri ve ankastre cihazlarınıza uygun kesimlerle, mutfağınızı daha fonksiyonel hale getiriyoruz."
-              image="/img/ozelCozumler.webp"
+              image="/img/hizmetlerimiz/evye-ankastre/ozel-cozumler.webp"
               iconColor="primary"
               vertical
             />
@@ -99,7 +97,7 @@ export default function EvyeAnkastreSection() {
             <InfoArea2
               title="Entegre Çözümler"
               description="Genç Mermer olarak, mutfak tezgahı ve evye-ankastre hizmetlerini bir arada sunarak, bütünsel çözümler üretiyoruz. Tezgah seçiminden evye montajına ve ankastre kesimlerine kadar tüm süreçleri tek elden yöneterek, zaman ve maliyet tasarrufu sağlıyoruz. Profesyonel ekibimiz, projenizin her aşamasında yanınızda olarak, sorunsuz bir uygulama garantisi veriyor."
-              image="/img/entegreCozumler.jpg"
+              image="/img/hizmetlerimiz/evye-ankastre/entegre-cozumler.jpg"
               iconColor="primary"
               vertical
             />

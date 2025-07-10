@@ -18,7 +18,7 @@ import Parallax from "/components/Parallax/Parallax.js";
 import styles from "/styles/jss/nextjs-material-kit/pages/AnasayfaPage.js";
 
 // Sections for this page
-import HakkimizdaSection from "/pages-sections/AnasayfaPage-Sections/HakkimizdaSection";
+import BizKimizSection from "/pages-sections/AnasayfaPage-Sections/BizKimizSection";
 import UrunlerimizSection from "/pages-sections/AnasayfaPage-Sections/UrunlerimizSection";
 import ReferanslarimizSection from "/pages-sections/AnasayfaPage-Sections/ReferanslarimizSection";
 
@@ -51,7 +51,7 @@ export default function AnasayfaPage(props) {
         />
         <meta
           property="og:image"
-          content="https://www.gencmermer.com.tr/img/MermerSiyah-bg.jpg"
+          content="https://www.gencmermer.com.tr/img/mermer-parallax.jpg"
         />
         <meta
           property="og:url"
@@ -71,7 +71,7 @@ export default function AnasayfaPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter responsive image="/img/MermerSiyah-bg.jpg">
+      <Parallax filter responsive image="/img/mermer-parallax.jpg">
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
@@ -93,7 +93,7 @@ export default function AnasayfaPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <HakkimizdaSection />
+          <BizKimizSection />
           <UrunlerimizSection />
           <ReferanslarimizSection />
         </div>

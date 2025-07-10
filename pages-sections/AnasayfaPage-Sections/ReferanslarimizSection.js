@@ -39,7 +39,7 @@ export default function ReferanslarimizSection() {
           >
             <div className={classes.reference}>
               <img
-                src="/img/yildizpen.png"
+                src="/img/anasayfa/referanslarimiz/yildiz-pen.png"
                 alt="Referans 2"
                 className={classes.referenceImage}
               />
@@ -61,7 +61,7 @@ export default function ReferanslarimizSection() {
               style={{ padding: 20, paddingY: 10, backgroundColor: "#8b0020" }}
             >
               <img
-                src="/img/cobanlar.png"
+                src="/img/anasayfa/referanslarimiz/cobanlar.png"
                 alt="Referans 1"
                 className={classes.referenceImage}
               />
@@ -80,7 +80,7 @@ export default function ReferanslarimizSection() {
           >
             <div className={classes.reference}>
               <img
-                src="/img/tacpen.png"
+                src="/img/anasayfa/referanslarimiz/tac-pen.png"
                 alt="Referans 3"
                 className={classes.referenceImage}
               />

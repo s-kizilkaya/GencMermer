@@ -23,13 +23,23 @@ export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
     <List className={classes.list}>
+            <ListItem className={classes.listItem}>
+        <Link href="/Anasayfa ">
+          <Button
+            color="transparent"
+            className={classes.navLink}
+          >
+            <Icon className={classes.icons}>home</Icon> ANASAYFA
+          </Button>
+        </Link>
+      </ListItem>
       <ListItem className={classes.listItem}>
         <Link href="/Hakkimizda">
           <Button
             color="transparent"
             className={classes.navLink}
           >
-            <Icon className={classes.icons}>hakkimizda</Icon> HAKKIMIZDA
+            <Icon className={classes.icons}>info</Icon> HAKKIMIZDA
           </Button>
         </Link>
       </ListItem>
@@ -61,6 +71,16 @@ export default function HeaderLinks(props) {
             </Link>,
           ]}
         />
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Link href="/Galeri">
+          <Button
+            color="transparent"
+            className={classes.navLink}
+          >
+            <Icon className={classes.icons}>photo_library</Icon> GALERİ
+          </Button>
+        </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Link href="/Iletisim">

@@ -13,7 +13,7 @@ import HeaderLinks from "/components/Header/HeaderLinks.js";
 import Parallax from "/components/Parallax/Parallax.js";
 import Button from "/components/CustomButtons/Button.js";
 import Link from "next/link";
-
+import Head from "next/head";
 import styles from "/styles/jss/nextjs-material-kit/pages/AnasayfaPage.js";
 
 // Sections for this page
@@ -28,6 +28,34 @@ export default function KabirPage(props) {
   const { ...rest } = props;
   return (
     <div>
+      <Head>
+        <title>Genç Mermer | Kabir </title>
+        <meta
+          name="description"
+          content="Genç Mermer olarak, kabir mermer uygulamalarında uzun ömürlü ve estetik çözümler sunuyoruz. Kaliteli işçilik ile saygı ve özeni bir araya getiriyoruz."
+        />
+        <meta
+          name="keywords"
+          content="Genç Mermer Kabir, Genç Mermer Mezar, Genç Mermer, Kabir, Mezar, Kabir Mermeri, Mezar Mermeri, Mermer Kabir, Mermer Mezar, Kabir Taşı, Mezar Taşı, Eskişehir Kabir, Eskişehir Mezar, Mezar Uygulamaları"
+        />
+        <meta name="robots" content="index, follow" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="Genç Mermer | Kabir" />
+        <meta
+          property="og:description"
+          content="Kabir uygulamalarında uzun ömürlü ve zarif mermer çözümleri. Saygı, estetik ve dayanıklılık Genç Mermer farkıyla."
+        />
+        <meta
+          property="og:image"
+          content="https://www.gencmermer.com.tr/img/mermer-parallax.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://www.gencmermer.com.tr/hizmetlerimiz/kabir"
+        />
+        <meta property="og:type" content="website" />
+      </Head>
       <Header
         color="transparent"
         routes={dashboardRoutes}
@@ -40,7 +68,7 @@ export default function KabirPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter responsive image="/img/MermerSiyah-bg.jpg">
+      <Parallax filter responsive image="/img/mermer-parallax.jpg">
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>

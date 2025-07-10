@@ -12,13 +12,13 @@ import { IconSparkles, IconShield, IconClockHour8 } from "@tabler/icons-react";
 
 const useStyles = makeStyles(styles);
 
-export default function HakkimizdaSection() {
+export default function BizKimizSection() {
   const classes = useStyles();
   return (
     <div className={classes.section}>
       <GridContainer justifyContent="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Hakkımızda</h2>
+          <h2 className={classes.title}>Biz Kimiz?</h2>
           <h5 className={classes.description}>
             Genç Mermer olarak, mermer sektöründe kaliteli çözümler sunma
             konusundaki kararlılığımızla tanınmaktayız. Her projede, doğal taşın

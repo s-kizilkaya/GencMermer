@@ -8,8 +8,6 @@ import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
 import InfoArea2 from "/components/InfoArea/InfoArea2.js";
 
-import { IconBrandFlipboard } from "@tabler/icons-react";
-
 import styles from "/styles/jss/nextjs-material-kit/pages/AnasayfaPageSections/productStyle.js";
 
 const useStyles = makeStyles((theme) => ({
@@ -72,7 +70,7 @@ export default function DenizlikSection() {
             <InfoArea2
               title="Mermer Denizlikler"
               description="Mermer denizliklerimiz, klasik ve zarif bir görünüm sunar. Doğal taşın eşsiz dokusu ve desenleri ile her pencereye özel bir karakter kazandırır."
-              image="/img/mermerDenizlik.jpg"
+              image="/img/hizmetlerimiz/denizlik/mermer-denizlik.jpg"
               iconColor="primary"
               vertical
             />
@@ -81,7 +79,7 @@ export default function DenizlikSection() {
             <InfoArea2
               title="Granit Denizlikler"
               description="Granit denizliklerimiz, yüksek dayanıklılığı ve şık görünümü bir arada sunar. Dış etkenlerden etkilenmeyen yapısı ile uzun yıllar boyunca ilk günkü görünümünü korur."
-              image="/img/granitDenizlik.jpg"
+              image="/img/hizmetlerimiz/denizlik/granit-denizlik.jpg"
               iconColor="primary"
               vertical
             />
@@ -90,7 +88,7 @@ export default function DenizlikSection() {
             <InfoArea2
               title="Özel Tasarım Denizlikler"
               description="Özel tasarım denizliklerimiz, evinizin tarzına ve ihtiyaçlarınıza göre şekillendirilir. Farklı kenar profilleri ve yüzey işlemeleri ile pencerelerinize özgün bir görünüm kazandırıyoruz."
-              image="/img/ozelTasarimDenizlik.webp"
+              image="/img/hizmetlerimiz/denizlik/ozel-tasarim-denizlik.webp"
               iconColor="primary"
               vertical
             />
@@ -99,7 +97,7 @@ export default function DenizlikSection() {
             <InfoArea2
               title="Profesyonel Uygulama"
               description="Genç Mermer olarak, denizlik uygulamalarımızda profesyonel bir hizmet sunuyoruz. Hassas ölçüm, kaliteli malzeme ve uzman işçilik ile sorunsuz bir uygulama garantisi veriyoruz. Denizliklerinizin su ve nem gibi dış etkenlerden etkilenmemesi için gerekli tüm önlemleri alarak, uzun ömürlü bir kullanım sağlıyoruz."
-              image="/img/bakimVeOnarimDenizlik.jpg"
+              image="/img/hizmetlerimiz/denizlik/profesyonel-uygulama.jpg"
               iconColor="primary"
               vertical
             />

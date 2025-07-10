@@ -13,7 +13,7 @@ import HeaderLinks from "/components/Header/HeaderLinks.js";
 import Parallax from "/components/Parallax/Parallax.js";
 import Button from "/components/CustomButtons/Button.js";
 import Link from "next/link";
-
+import Head from "next/head";
 import styles from "/styles/jss/nextjs-material-kit/pages/AnasayfaPage.js";
 
 // Sections for this page
@@ -28,6 +28,34 @@ export default function BasamakPage(props) {
   const { ...rest } = props;
   return (
     <div>
+      <Head>
+        <title>Genç Mermer | Basamak</title>
+        <meta
+          name="description"
+          content="Genç Mermer ile estetik ve dayanıklı mermer basamak çözümleri. İç ve dış mekanlar için modern tasarımlarla uzun ömürlü basamak uygulamaları."
+        />
+        <meta
+          name="keywords"
+          content="Genç Mermer Basamak, Genç Mermer Merdiven Basamağı, Genç Mermer, Basamak Modelleri, Merdiven Basamağı, Mermer Merdiven, Eskişehir Mermer Basamak, Dış Mekan Basamak, İç Mekan Basamak, Genç Mermer"
+        />
+        <meta name="robots" content="index, follow" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="Genç Mermer | Basamak" />
+        <meta
+          property="og:description"
+          content="Mermer merdiven ve basamaklarda şıklık ve sağlamlığı bir arada sunuyoruz. Projeleriniz için ideal çözümler."
+        />
+        <meta
+          property="og:image"
+          content="https://www.gencmermer.com.tr/img/mermer-parallax.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://www.gencmermer.com.tr/hizmetlerimiz/basamak"
+        />
+        <meta property="og:type" content="website" />
+      </Head>
       <Header
         color="transparent"
         routes={dashboardRoutes}
@@ -40,7 +68,7 @@ export default function BasamakPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter responsive image="/img/MermerSiyah-bg.jpg">
+      <Parallax filter responsive image="/img/mermer-parallax.jpg">
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>

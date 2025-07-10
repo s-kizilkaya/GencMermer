@@ -8,8 +8,6 @@ import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
 import InfoArea2 from "/components/InfoArea/InfoArea2.js";
 
-import { IconStairs } from "@tabler/icons-react";
-
 import styles from "/styles/jss/nextjs-material-kit/pages/AnasayfaPageSections/productStyle.js";
 
 const useStyles = makeStyles((theme) => ({
@@ -72,7 +70,7 @@ export default function BasamakSection() {
             <InfoArea2
               title="Mermer Basamaklar"
               description="Mermer basamaklarımız, klasik ve zarif bir görünüm sunar. Doğal taşın asaleti ile mekanlarınıza değer katar. Farklı renk ve desen seçenekleriyle her tarza uyum sağlar."
-              image="/img/mermerBasamak.jpg"
+              image="/img/hizmetlerimiz/basamak/mermer-basamak.jpg"
               iconColor="primary"
               vertical
             />
@@ -81,7 +79,7 @@ export default function BasamakSection() {
             <InfoArea2
               title="Granit Basamaklar"
               description="Granit basamaklarımız, yüksek dayanıklılığı ve şık görünümü bir arada sunar. Yoğun kullanım alanları için ideal olan granit basamaklar, uzun yıllar boyunca ilk günkü görünümünü korur."
-              image="/img/granitBasamak.jpg"
+              image="/img/hizmetlerimiz/basamak/granit-basamak.jpg"
               iconColor="primary"
               vertical
             />
@@ -90,7 +88,7 @@ export default function BasamakSection() {
             <InfoArea2
               title="Özel Tasarım Basamaklar"
               description="Özel tasarım basamaklarımız, mekanınızın tarzına ve ihtiyaçlarınıza göre şekillendirilir. Farklı kenar profilleri ve yüzey işlemeleri ile basamaklarınıza özgün bir karakter kazandırıyoruz."
-              image="/img/OzelTasarimBasamak.webp"
+              image="/img/hizmetlerimiz/basamak/ozel-tasarim-basamak.webp"
               iconColor="primary"
               vertical
             />
@@ -99,7 +97,7 @@ export default function BasamakSection() {
             <InfoArea2
               title="Güvenlik ve Estetik Bir Arada"
               description="Genç Mermer olarak, basamak uygulamalarımızda güvenliği ve estetiği bir arada sunuyoruz. Kaymaz yüzey işlemeleri ve özel kenar profilleri ile güvenli bir kullanım sağlarken, doğal taşın eşsiz güzelliği ile mekanlarınıza değer katıyoruz. Profesyonel ekibimiz, ölçüm aşamasından montaja kadar tüm süreçte yanınızda olarak, sorunsuz bir uygulama garantisi veriyor."
-              image="/img/bakimVeOnarimBasamak.jpg"
+              image="/img/hizmetlerimiz/basamak/guvenlik-ve-estetik-bir-arada.jpg"
               iconColor="primary"
               vertical
             />

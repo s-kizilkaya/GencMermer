@@ -1,8 +1,11 @@
 import React from "react";
 import Head from "next/head";
 import "/styles/scss/nextjs-material-kit.scss?v=1.2.0";
+import WhatsAppButton from "/components/WhatsAppButton.js";
 
 function MyApp({ Component, pageProps }) {
+  const phoneNumber = "905325928100";
+
   return (
     <>
       <Head>
@@ -16,6 +19,7 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
       <Component {...pageProps} />
+      <WhatsAppButton phoneNumber={phoneNumber} />
     </>
   );
 }

@@ -18,6 +18,7 @@ import styles from "/styles/jss/nextjs-material-kit/pages/AnasayfaPage.js";
 import IletisimBilgileriSection from "/pages-sections/IletisimPage-Sections/IletisimBilgileriSection.js";
 import IletisimCalismaSaatleriSection from "/pages-sections/IletisimPage-Sections/IletisimCalismaSaatleriSection.js";
 import IletisimHaritaSection from "/pages-sections/IletisimPage-Sections/IletisimHaritaSection.js";
+import Head from "next/head";
 
 const dashboardRoutes = [];
 
@@ -28,6 +29,34 @@ export default function IletisimPage(props) {
   const { ...rest } = props;
   return (
     <div>
+      <Head>
+        <title>Genç Mermer | İletişim</title>
+        <meta
+          name="description"
+          content="Genç Mermer ile iletişime geçin. Adres ve telefon bilgilerine buradan ulaşabilirsiniz."
+        />
+        <meta
+          name="keywords"
+          content="Genç Mermer İletişim, Genç Mermer, İletişim, Mermer İletişim Bilgileri, Eskişehir Mermer Firma Telefonu, Genç Mermer Adres"
+        />
+        <meta name="robots" content="index, follow" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="Genç Mermer | İletişim" />
+        <meta
+          property="og:description"
+          content="İletişim sayfamızdan bize kolayca ulaşabilirsiniz. Telefon ve adres bilgileri burada."
+        />
+        <meta
+          property="og:image"
+          content="https://www.gencmermer.com.tr/img/mermer-parallax.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://www.gencmermer.com.tr/iletisim"
+        />
+        <meta property="og:type" content="website" />
+      </Head>
       <Header
         color="transparent"
         routes={dashboardRoutes}
@@ -40,7 +69,7 @@ export default function IletisimPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter responsive image="/img/MermerSiyah-bg.jpg">
+      <Parallax filter responsive image="/img/mermer-parallax.jpg">
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>

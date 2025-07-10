@@ -8,8 +8,6 @@ import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
 import InfoArea2 from "/components/InfoArea/InfoArea2.js";
 
-import { IconRectangle } from "@tabler/icons-react";
-
 import styles from "/styles/jss/nextjs-material-kit/pages/AnasayfaPageSections/productStyle.js";
 
 const useStyles = makeStyles((theme) => ({
@@ -73,7 +71,7 @@ export default function MutfakTezgahiSection() {
             <InfoArea2
               title="Granit Tezgahlar"
               description="Granit tezgahlarımız, doğal güzelliği ve dayanıklılığı bir arada sunar. Isıya, çizilmeye ve lekelere karşı yüksek dirençli granit tezgahlar, mutfaklarınızda uzun yıllar boyunca ilk günkü görünümünü korur."
-              image="/img/granitTezgah.jpg"
+              image="/img/hizmetlerimiz/mutfak-tezgahi/granit-tezgah.jpg"
               imageColor="primary"
               vertical
             />
@@ -82,7 +80,7 @@ export default function MutfakTezgahiSection() {
             <InfoArea2
               title="Mermer Tezgahlar"
               description="Mermer tezgahlarımız, klasik ve zarif bir görünüm sunar. Her mermerin kendine özgü damar yapısı, mutfağınıza benzersiz bir karakter katar. Özenle işlenen mermer tezgahlarımız, mutfağınızın değerini artırır."
-              image="/img/mermerTezgah.jpg"
+              image="/img/hizmetlerimiz/mutfak-tezgahi/mermer-tezgah.jpg"
               imageColor="primary"
               vertical
             />
@@ -91,7 +89,7 @@ export default function MutfakTezgahiSection() {
             <InfoArea2
               title="Kuvars Tezgahlar"
               description="Kuvars tezgahlarımız, doğal taşın güzelliği ile modern teknolojinin avantajlarını bir araya getirir. Gözeneksiz yapısı sayesinde bakteri barındırmaz, kolay temizlenir ve leke tutmaz. Geniş renk seçenekleriyle her tarza uyum sağlar."
-              image="/img/kuvarsTezgah.webp"
+              image="/img/hizmetlerimiz/mutfak-tezgahi/kuvars-tezgah.webp"
               imageColor="primary"
               vertical
             />
@@ -100,7 +98,7 @@ export default function MutfakTezgahiSection() {
             <InfoArea2
               title="Özel Tasarım Tezgahlar"
               description="Genç Mermer olarak, ihtiyaçlarınıza ve zevkinize özel tasarım tezgahlar üretiyoruz. Farklı kenar profilleri, özel kesimler ve entegre evye çözümleri ile mutfağınızı kişiselleştiriyoruz. Profesyonel ekibimiz, ölçüm aşamasından montaja kadar tüm süreçte yanınızda olarak, hayalinizdeki mutfağa kavuşmanızı sağlıyor."
-              image="/img/ozelTasarimTezgah.webp"
+              image="/img/hizmetlerimiz/mutfak-tezgahi/ozel-tasarim-tezgah.webp"
               imageColor="primary"
               vertical
             />
