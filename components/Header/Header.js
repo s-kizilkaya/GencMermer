@@ -12,16 +12,30 @@ import IconButton from "@material-ui/core/IconButton";
 import Button from "@material-ui/core/Button";
 import Hidden from "@material-ui/core/Hidden";
 import Drawer from "@material-ui/core/Drawer";
+import Image from "next/image";
 // @material-ui/icons
 import Menu from "@material-ui/icons/Menu";
 // core components
 import styles from "/styles/jss/nextjs-material-kit/components/headerStyle.js";
 
-const useStyles = makeStyles(styles);
+const useStyles = makeStyles((theme) => ({
+  ...styles,
+  title: {
+    position: "relative",
+    left: "-7%",
+    [theme.breakpoints.down("md")]: {
+      left: "-5%",
+    },
+    [theme.breakpoints.down("xs")]: {
+      left: "-9%",
+    },
+  },
+}));
 
 export default function Header(props) {
   const classes = useStyles();
   const [mobileOpen, setMobileOpen] = React.useState(false);
+  const [headerColor, setHeaderColor] = React.useState(props.color);
   React.useEffect(() => {
     if (props.changeColorOnScroll) {
       window.addEventListener("scroll", headerColorChange);
@@ -38,32 +52,42 @@ export default function Header(props) {
   const headerColorChange = () => {
     const { color, changeColorOnScroll } = props;
     const windowsScrollTop = window.pageYOffset;
-    if (windowsScrollTop > changeColorOnScroll.height) {
-      document.body
-        .getElementsByTagName("header")[0]
-        .classList.remove(classes[color]);
-      document.body
-        .getElementsByTagName("header")[0]
-        .classList.add(classes[changeColorOnScroll.color]);
-    } else {
-      document.body
-        .getElementsByTagName("header")[0]
-        .classList.add(classes[color]);
-      document.body
-        .getElementsByTagName("header")[0]
-        .classList.remove(classes[changeColorOnScroll.color]);
-    }
+    const newColor = windowsScrollTop > changeColorOnScroll.height ? changeColorOnScroll.color : color;
+    setHeaderColor(newColor);
+    
+    // Update the header element's classes
+    const headerElement = document.body.getElementsByTagName("header")[0];
+    headerElement.classList.remove(classes[color]);
+    headerElement.classList.add(classes[newColor]);
   };
-  const { color, rightLinks, leftLinks, brand, fixed, absolute } = props;
+  const { color: initialColor, rightLinks, leftLinks, brand, fixed, absolute } = props;
   const appBarClasses = classNames({
     [classes.appBar]: true,
-    [classes[color]]: color,
+    [classes[headerColor]]: true,
     [classes.absolute]: absolute,
     [classes.fixed]: fixed,
   });
   const brandComponent = (
     <Link href="/Anasayfa" as="/Anasayfa">
-      <Button className={classes.title}>{brand}</Button>
+      <Button className={classes.title}>
+        {headerColor === "white" ? (
+          <Image
+            src="/img/logo/logo-red.png"
+            alt="Genc Mermer Logo"
+            width={120}
+            height={80}
+            priority
+          />
+        ) : (
+          <Image
+            src="/img/logo/logo-white.png"
+            alt="Genc Mermer Logo"
+            width={120}
+            height={80}
+            priority
+          />
+        )}
+      </Button>    
     </Link>
   );
   return (
