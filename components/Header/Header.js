@@ -12,7 +12,6 @@ import IconButton from "@material-ui/core/IconButton";
 import Button from "@material-ui/core/Button";
 import Hidden from "@material-ui/core/Hidden";
 import Drawer from "@material-ui/core/Drawer";
-import Image from "next/image";
 // @material-ui/icons
 import Menu from "@material-ui/icons/Menu";
 // core components
@@ -71,7 +70,7 @@ export default function Header(props) {
     <Link href="/Anasayfa" as="/Anasayfa">
       <Button className={classes.title}>
         {headerColor === "white" ? (
-          <Image
+          <img
             src="/img/logo/logo-red.png"
             alt="Genc Mermer Logo"
             width={120}
@@ -80,7 +79,7 @@ export default function Header(props) {
             layout="fixed"
           />
         ) : (
-          <Image
+          <img
             src="/img/logo/logo-white.png"
             alt="Genc Mermer Logo"
             width={120}
