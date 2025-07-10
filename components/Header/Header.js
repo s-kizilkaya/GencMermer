@@ -72,7 +72,7 @@ export default function Header(props) {
       <Button className={classes.title}>
         {headerColor === "white" ? (
           <Image
-            src="/img/logo/logo-red.png"
+            src="/public/img/logo/logo-red.png"
             alt="Genc Mermer Logo"
             width={120}
             height={80}
@@ -80,7 +80,7 @@ export default function Header(props) {
           />
         ) : (
           <Image
-            src="/img/logo/logo-white.png"
+            src="/public/img/logo/logo-white.png"
             alt="Genc Mermer Logo"
             width={120}
             height={80}
