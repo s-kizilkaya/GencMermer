@@ -19,7 +19,6 @@ class MyDocument extends Document {
             href="https://gencmermer.com.tr/favicon.ico"
             type="image/x-icon"
           />
-
           <link
             rel="icon"
             href="https://gencmermer.com.tr/img/favicon.png"
