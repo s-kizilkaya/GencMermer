@@ -29,6 +29,8 @@ class MyDocument extends Document {
             href="https://gencmermer.com.tr/img/favicon.png"
             type="image/png"
           />
+
+<link rel="apple-touch-icon" href="https://gencmermer.com.tr/img/favicon.png" />
           {/* Fonts and icons */}
           <link
             rel="stylesheet"
