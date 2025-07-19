@@ -7,6 +7,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
 import InfoArea2 from "/components/InfoArea/InfoArea2.js";
+import PhotoSlider from "/components/Slider/PhotoSlider";
 
 import styles from "/styles/jss/nextjs-material-kit/pages/AnasayfaPageSections/productStyle.js";
 
@@ -87,17 +88,26 @@ export default function MutfakTezgahiSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea2
-              title="Kuvars Tezgahlar"
-              description="Kuvars tezgahlarımız, doğal taşın güzelliği ile modern teknolojinin avantajlarını bir araya getirir. Gözeneksiz yapısı sayesinde bakteri barındırmaz, kolay temizlenir ve leke tutmaz. Geniş renk seçenekleriyle her tarza uyum sağlar."
-              image="/img/hizmetlerimiz/mutfak-tezgahi/kuvars-tezgah.webp"
+              title="Mermerit Tezgahlar"
+              description="Mermerit tezgahlarımız, hijyenik ve dayanıklı yapısıyla leke tutmaz, kolay temizlenir. Isıya ve darbelere karşı dirençlidir. Şık görünümü ve renk seçenekleriyle mutfağınıza modern bir dokunuş katar."
+              image="/img/hizmetlerimiz/mutfak-tezgahi/mermerit-tezgah.jpg"
               imageColor="primary"
               vertical
             />
           </GridItem>
-          <GridItem xs={12} sm={12} md={12}>
+          <GridItem xs={12} sm={12} md={6}>
+            <InfoArea2
+              title="Balenco Tezgahlar"
+              description="Balenco tezgahlarımız, modern mutfaklar için yüksek dayanıklılık ve estetik sunar. Leke tutmayan, kolay temizlenen ve çizilmeye karşı dirençli yapısıyla uzun ömürlü kullanım sağlar. Geniş renk ve doku seçenekleriyle mutfağınıza şıklık katar."
+              image="/img/hizmetlerimiz/mutfak-tezgahi/belenco-tezgah.jpg"
+              imageColor="primary"
+              vertical
+            />
+          </GridItem>
+          <GridItem xs={12} sm={12} md={6}>
             <InfoArea2
               title="Özel Tasarım Tezgahlar"
-              description="Genç Mermer olarak, ihtiyaçlarınıza ve zevkinize özel tasarım tezgahlar üretiyoruz. Farklı kenar profilleri, özel kesimler ve entegre evye çözümleri ile mutfağınızı kişiselleştiriyoruz. Profesyonel ekibimiz, ölçüm aşamasından montaja kadar tüm süreçte yanınızda olarak, hayalinizdeki mutfağa kavuşmanızı sağlıyor."
+              description="Genç Mermer olarak, özel tasarım tezgahlar üretiyoruz. Farklı kenar profilleri, özel kesimler ve entegre çözümler ile mutfağınızı kişiselleştiriyoruz. Profesyonel ekibimiz, ölçüm aşamasından montaja kadar tüm süreçte yanınızda olarak, hayalinizdeki mutfağa kavuşmanızı sağlıyor."
               image="/img/hizmetlerimiz/mutfak-tezgahi/ozel-tasarim-tezgah.webp"
               imageColor="primary"
               vertical
@@ -105,6 +115,30 @@ export default function MutfakTezgahiSection() {
           </GridItem>
         </GridContainer>
       </div>
+      <div>
+        <GridContainer>
+          <GridItem xs={12} sm={12} md={12}>
+          <PhotoSlider
+            title="Mutfak Tezgahı Galerisi"
+            description="Mutfak Tezgahı uygulamalarımızdan örnekler."
+            images={[
+              "/img/hizmetlerimiz/mutfak-tezgahi/galeri/1.jpeg",
+              "/img/hizmetlerimiz/mutfak-tezgahi/galeri/2.jpeg",
+              "/img/hizmetlerimiz/mutfak-tezgahi/galeri/3.jpeg",
+              "/img/hizmetlerimiz/mutfak-tezgahi/galeri/mermerit.jpeg",
+              "/img/hizmetlerimiz/mutfak-tezgahi/galeri/4.jpeg",
+              "/img/hizmetlerimiz/mutfak-tezgahi/galeri/5.jpeg",
+              "/img/hizmetlerimiz/mutfak-tezgahi/galeri/cimstone1.jpeg",
+              "/img/hizmetlerimiz/mutfak-tezgahi/galeri/cimstone2.jpeg",
+              "/img/hizmetlerimiz/mutfak-tezgahi/galeri/cimstone3.jpeg",
+              "/img/hizmetlerimiz/mutfak-tezgahi/galeri/6.jpeg",
+              "/img/hizmetlerimiz/mutfak-tezgahi/galeri/7.jpeg",
+              "/img/hizmetlerimiz/mutfak-tezgahi/galeri/8.jpeg",
+            ]}
+          />
+          </GridItem>
+        </GridContainer>
+      </div>      
     </div>
   );
 }

@@ -6,13 +6,13 @@ import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 const useStyles = makeStyles((theme) => ({
   fab: {
     position: "fixed",
-    bottom: theme.spacing(4),
-    right: theme.spacing(4),
-    backgroundColor: "#25D366", 
+    bottom: theme.spacing(1),
+    right: theme.spacing(1),
+    backgroundColor: "#8b0020",
     color: "white",
-    zIndex: 1100, 
+    zIndex: 1100,
     "&:hover": {
-      backgroundColor: "#128C7E", 
+      backgroundColor: "#7b0020",
     },
   },
 }));

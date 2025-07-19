@@ -7,6 +7,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
 import InfoArea2 from "/components/InfoArea/InfoArea2.js";
+import PhotoSlider from "/components/Slider/PhotoSlider";
 
 import styles from "/styles/jss/nextjs-material-kit/pages/AnasayfaPageSections/productStyle.js";
 
@@ -104,6 +105,28 @@ export default function EvyeAnkastreSection() {
           </GridItem>
         </GridContainer>
       </div>
+      <div>
+        <GridContainer>
+          <GridItem xs={12} sm={12} md={12}>
+          <PhotoSlider
+            title="Evye & Ankastre Galerisi"
+            description="Evye ve Ankastre uygulamalarımızdan örnekler."
+            images={[
+              "/img/hizmetlerimiz/evye-ankastre/galeri/1.jpeg",
+              "/img/hizmetlerimiz/evye-ankastre/galeri/2.jpeg",
+              "/img/hizmetlerimiz/evye-ankastre/galeri/3.jpeg",
+              "/img/hizmetlerimiz/evye-ankastre/galeri/4.jpeg",
+              "/img/hizmetlerimiz/evye-ankastre/galeri/5.jpeg",
+              "/img/hizmetlerimiz/evye-ankastre/galeri/6.jpeg",
+              "/img/hizmetlerimiz/evye-ankastre/galeri/7.jpeg",
+              "/img/hizmetlerimiz/evye-ankastre/galeri/8.jpeg",
+              "/img/hizmetlerimiz/evye-ankastre/galeri/9.jpeg",
+              "/img/hizmetlerimiz/evye-ankastre/galeri/10.jpeg",
+            ]}
+          />
+          </GridItem>
+        </GridContainer>
+      </div>      
     </div>
   );
 }

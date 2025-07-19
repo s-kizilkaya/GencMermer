@@ -16,7 +16,7 @@ import Parallax from "/components/Parallax/Parallax.js";
 import styles from "/styles/jss/nextjs-material-kit/pages/AnasayfaPage.js";
 
 // Sections for this page
-import GaleriSliderSection from "/pages-sections/GaleriPage-Sections/GaleriSliderSection.js";
+import GaleriSection from "/pages-sections/GaleriPage-Sections/GaleriSection.js";
 
 const dashboardRoutes = [];
 
@@ -84,7 +84,7 @@ export default function GaleriPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <GaleriSliderSection />
+          <GaleriSection />
         </div>
       </div>
       <Footer />

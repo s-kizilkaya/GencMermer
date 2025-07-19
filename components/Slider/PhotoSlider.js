@@ -30,15 +30,11 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const images = [
-  "/img/anasayfa/urunlerimiz/mutfak-tezgahi.jpg",
-  "/img/anasayfa/urunlerimiz/kabir.jpg",
-  "/img/anasayfa/urunlerimiz/evye-ankastre.avif",
-  "/img/anasayfa/urunlerimiz/basamak.avif",
-  "/img/anasayfa/urunlerimiz/denizlik.jpg",
-];
-
-export default function GaleriSliderSection() {
+export default function PhotoSlider({
+  title = "",
+  description = "",
+  images = [],
+}) {
   const classes = useStyles();
   const settings = {
     className: classes.slickDots,
@@ -69,24 +65,28 @@ export default function GaleriSliderSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Öne Çıkan Çalışmalarımız</h2>
+          <h4 className={classes.title}>{title}</h4>
           <h5 className={classes.description}>
-            Kalite ve estetiği bir araya getirdiğimiz projelerimizden bazıları.
+            {description}
           </h5>
         </GridItem>
       </GridContainer>
       <div style={{ marginBottom: "32px" }}>
-      <GridContainer>
+        <GridContainer>
           <GridItem xs={12} sm={12} md={12}>
             <Slider {...settings}>
               {images.map((img, i) => (
                 <div key={i} className={classes.slideContainer}>
-                  <img src={img} alt={`Slide ${i + 1}`} className={classes.img} />
+                  <img
+                    src={img}
+                    alt={`Slide ${i + 1}`}
+                    className={classes.img}
+                  />
                 </div>
               ))}
-            </Slider>            
+            </Slider>
           </GridItem>
-        </GridContainer>      
+        </GridContainer>
       </div>
     </div>
   );
