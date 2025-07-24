@@ -29,11 +29,35 @@ class MyDocument extends Document {
             href="https://gencmermer.com.tr/img/favicon.png"
             type="image/png"
           />
-          <script type="application/ld+json">
-            {`{"@context": "https://schema.org","@type": "Organization","name": "Genç Mermer","url": "https://gencmermer.com.tr","logo": "https://gencmermer.com.tr/img/logo/logo-red.png","contactPoint": {"@type": "ContactPoint","telephone": "+90-532-592-8100","contactType": "Customer Service"},"address": {"@type": "PostalAddress","streetAddress": "Baksan Sanayi Sitesi, 81. Blok","addressLocality": "Tepebaşı","addressRegion": "Eskişehir","postalCode": "26200","addressCountry": "TR"}}`}       
-          </script>
-
-          <link rel="apple-touch-icon" href="https://gencmermer.com.tr/img/logo/logo-red.png" />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                name: "Genç Mermer",
+                url: "https://gencmermer.com.tr",
+                logo: "https://gencmermer.com.tr/img/logo/logo-red.png",
+                contactPoint: {
+                  "@type": "ContactPoint",
+                  telephone: "+90-532-592-8100",
+                  contactType: "Customer Service",
+                },
+                address: {
+                  "@type": "PostalAddress",
+                  streetAddress: "Baksan Sanayi Sitesi, 81. Blok",
+                  addressLocality: "Tepebaşı",
+                  addressRegion: "Eskişehir",
+                  postalCode: "26200",
+                  addressCountry: "TR",
+                },
+              }),
+            }}
+          ></script>
+          <link
+            rel="apple-touch-icon"
+            href="https://gencmermer.com.tr/img/logo/logo-red.png"
+          />
           {/* Fonts and icons */}
           <link
             rel="stylesheet"
