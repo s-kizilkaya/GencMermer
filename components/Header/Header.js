@@ -51,15 +51,25 @@ export default function Header(props) {
   const headerColorChange = () => {
     const { color, changeColorOnScroll } = props;
     const windowsScrollTop = window.pageYOffset;
-    const newColor = windowsScrollTop > changeColorOnScroll.height ? changeColorOnScroll.color : color;
+    const newColor =
+      windowsScrollTop > changeColorOnScroll.height
+        ? changeColorOnScroll.color
+        : color;
     setHeaderColor(newColor);
-    
+
     // Update the header element's classes
     const headerElement = document.body.getElementsByTagName("header")[0];
     headerElement.classList.remove(classes[color]);
     headerElement.classList.add(classes[newColor]);
   };
-  const { color: initialColor, rightLinks, leftLinks, brand, fixed, absolute } = props;
+  const {
+    color: initialColor,
+    rightLinks,
+    leftLinks,
+    brand,
+    fixed,
+    absolute,
+  } = props;
   const appBarClasses = classNames({
     [classes.appBar]: true,
     [classes[headerColor]]: true,
@@ -75,8 +85,6 @@ export default function Header(props) {
             alt="Genc Mermer Logo"
             width={120}
             height={80}
-            priority
-            layout="fixed"
           />
         ) : (
           <img
@@ -84,11 +92,9 @@ export default function Header(props) {
             alt="Genc Mermer Logo"
             width={120}
             height={80}
-            priority
-            layout="fixed"
           />
         )}
-      </Button>    
+      </Button>
     </Link>
   );
   return (
