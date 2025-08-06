@@ -129,9 +129,9 @@ export default function BasamakSection() {
       </div>
       <div>
         <div style={{ textAlign: 'center', marginBottom: 28 }}>
-          <h4 className={classes.title}>
+          <h3 className={classes.title}>
             Tahmini Fiyat Almak İçin Bilgileri Girin:
-          </h4>
+          </h3>
         </div>
         <GridContainer spacing={2} style={{ marginBottom: 24 }} justifyContent="center">
           <GridItem xs={10} sm={4} md={3} style={{ textAlign: 'center' }}>

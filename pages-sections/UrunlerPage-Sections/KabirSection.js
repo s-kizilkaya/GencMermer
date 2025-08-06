@@ -125,9 +125,9 @@ export default function KabirSection() {
       </div>
       <div>
         <div style={{ textAlign: 'center', marginBottom: 28 }}>
-          <h4 className={classes.title}>
+          <h3 className={classes.title}>
           Tahmini Fiyat Almak İçin Bilgileri Girin:
-          </h4>
+          </h3>
         </div>
         <GridContainer spacing={2} style={{ marginBottom: 24 }}>
         <GridItem xs={12} sm={12} md={12} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
