@@ -8,7 +8,7 @@ import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
 import InfoArea from "/components/InfoArea/InfoArea.js";
 
-import { IconPhone, IconMapPin } from "@tabler/icons-react";
+import { IconMapPin, IconPhone, IconBrandInstagram,IconBrandFacebook } from "@tabler/icons-react";
 
 import styles from "/styles/jss/nextjs-material-kit/pages/AnasayfaPageSections/productStyle.js";
 
@@ -30,7 +30,7 @@ export default function IletisimBilgileriSection() {
         </GridItem>
       </GridContainer>
       <GridContainer>
-        <GridItem xs={12} sm={12} md={6}>
+        <GridItem xs={12} sm={12} md={12}>
           <InfoArea
             title="Adres"
             description="Uluönder Mahallesi, Baksan Sanayi Sitesi 81 / 4, 26200 Tepebaşı / Eskişehir, Türkiye"
@@ -39,11 +39,29 @@ export default function IletisimBilgileriSection() {
             vertical
           />
         </GridItem>
-        <GridItem xs={12} sm={12} md={6}>
+        <GridItem xs={12} sm={12} md={4}>
           <InfoArea
             title="Telefon"
-            description="+90 (532) 592 81 00"
+            description={<a href="https://wa.me/905325928100" target="_blank" rel="noopener noreferrer">+90 (532) 592 81 00</a>}
             icon={<IconPhone />}
+            iconColor="primary"
+            vertical
+          />
+        </GridItem>
+        <GridItem xs={12} sm={12} md={4}>
+          <InfoArea
+            title="Instagram"
+            description={<a href="https://www.instagram.com/gencmermer26" target="_blank" rel="noopener noreferrer">gencmermer26</a>}
+            icon={<IconBrandInstagram />}
+            iconColor="primary"
+            vertical
+          />
+        </GridItem>
+        <GridItem xs={12} sm={12} md={4}>
+          <InfoArea
+            title="Facebook"
+            description={<a href="https://tr-tr.facebook.com/people/Ali-Kizilkaya/pfbid0PPgS35FLqi3Cai6ajFRLQSRPQeqwJvNUkn6oUuw8ibP2jx41XobtqY2tMCioeVCul" target="_blank" rel="noopener noreferrer">Ali Kızılkaya</a>}
+            icon={<IconBrandFacebook />}
             iconColor="primary"
             vertical
           />

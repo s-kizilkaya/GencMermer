@@ -48,7 +48,7 @@ InfoArea.defaultProps = {
 InfoArea.propTypes = {
   icon: PropTypes.element.isRequired, // icon prop'unu element olarak değiştirin
   title: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
-  description: PropTypes.string.isRequired,
+  description: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
   iconColor: PropTypes.oneOf([
     "gray",
     "primary",
