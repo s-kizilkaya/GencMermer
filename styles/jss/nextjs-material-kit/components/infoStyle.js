@@ -56,7 +56,7 @@ const infoStyle = {
     marginTop: "0px",
     fontSize: "14px",
     "& a": {
-      color: "#619de5",
+      color: "#8b0020",
       textDecoration: "none",
     },
   },
