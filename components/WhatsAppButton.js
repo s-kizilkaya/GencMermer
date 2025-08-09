@@ -53,11 +53,9 @@ export default function WhatsAppButton({ phoneNumber }) {
   const whatsappUrl = `https://wa.me/${phoneNumber}`;
 
   return (
-     <button 
+    <button 
         aria-label="WhatsApp"
-        href={whatsappUrl}
-        target="_blank"
-        rel="noopener noreferrer"
+        onClick={() => window.open(whatsappUrl, '_blank', 'noopener,noreferrer')}
         className={`${classes.wpButton} ${classes.pulse}`}
       >
         <WhatsAppIcon style={{ fontSize: 30 }} />
